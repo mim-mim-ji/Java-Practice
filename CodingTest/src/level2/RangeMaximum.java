@@ -5,7 +5,7 @@ import java.util.*;
 public class RangeMaximum {
 
 	public static void main(String[] args) {
-		int [] numbers = {6,10,1,0};
+		int [] numbers = {6,2,1,0};
 		System.out.println(solution(numbers)); //6210
 	}
 	
