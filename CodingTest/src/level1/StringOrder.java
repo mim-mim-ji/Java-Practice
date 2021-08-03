@@ -26,7 +26,7 @@ public class StringOrder {
 				
 				/*
 				  if(c1 == c2){
-                  	 return s1.compareTo(s2);
+                  	 return s1.compareTo(s2); //같으면 사전순
               	  }  else return c1 - c2;
 				 */
 			}

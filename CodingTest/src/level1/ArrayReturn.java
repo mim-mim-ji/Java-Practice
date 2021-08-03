@@ -26,8 +26,8 @@ public class ArrayReturn {
 		
 		int a=0; int b=0; int c=0;
 		for(int i =0; i<answers.length; i++){
-            if(person1[i%person1.length] == answers[i]) a++;
-            if(person2[i%person2.length] == answers[i]) b++;
+            if(person1[i%person1.length] == answers[i]) a++; //0 1 2 3 4 
+            if(person2[i%person2.length] == answers[i]) b++; 
             if(person3[i%person3.length] == answers[i]) c++;
         }
 	
